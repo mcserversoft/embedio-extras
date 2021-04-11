@@ -84,7 +84,7 @@ namespace EmbedIO.BearerToken
         /// <inheritdoc />
         protected override async Task OnRequestAsync(IHttpContext context)
         {
-            if (context!.RequestedPath == _tokenEndpoint && context.Request.HttpVerb == HttpVerbs.Post)
+            if (context!.RequestedPath == _tokenEndpoint && context.Request.HttpVerb == HttpVerb.Post)
             {
                 await OnTokenRequest(context).ConfigureAwait(false);
                 return;

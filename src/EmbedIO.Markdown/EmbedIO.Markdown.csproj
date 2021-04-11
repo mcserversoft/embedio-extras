@@ -1,23 +1,23 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <AssemblyTitle>Unosquare EmbedIO JsonServer Module</AssemblyTitle>
+    <AssemblyTitle>EmbedIO Markdown Module</AssemblyTitle>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
-    <AssemblyName>EmbedIO.JsonServer</AssemblyName>
+    <AssemblyName>EmbedIO.Markdown</AssemblyName>
     <Authors>Unosquare</Authors>
     <LangVersion>7.3</LangVersion>
     <CodeAnalysisRuleSet>..\..\StyleCop.Analyzers.ruleset</CodeAnalysisRuleSet>
-    <RootNamespace>EmbedIO.JsonServer</RootNamespace>
+    <RootNamespace>EmbedIO.Markdown</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="CommonMark.NET" Version="0.15.1" />
+    <PackageReference Include="EmbedIO" Version="3.4.2" />
     <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.9.8">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
-    <PackageReference Include="EmbedIO" Version="3.4.2" />
     <PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>

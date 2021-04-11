@@ -10,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Unosquare.EmbedIO.AspNetCore\EmbedIO.AspNetCore.csproj" />
+    <ProjectReference Include="..\EmbedIO.AspNetCore\EmbedIO.AspNetCore.csproj" />
   </ItemGroup>
 
 </Project>

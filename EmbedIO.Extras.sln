@@ -14,21 +14,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{28C9CC7E-CFC
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{ABF66584-B7D8-4FB7-BD2B-A916166D0B7B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unosquare.Labs.EmbedIO.BearerToken", "src\Unosquare.Labs.EmbedIO.BearerToken\Unosquare.Labs.EmbedIO.BearerToken.csproj", "{C14456A2-FF6A-4EFF-9DE6-0C3CD6313DA4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmbedIO.BearerToken", "src\EmbedIO.BearerToken\EmbedIO.BearerToken.csproj", "{C14456A2-FF6A-4EFF-9DE6-0C3CD6313DA4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unosquare.Labs.EmbedIO.JsonServer", "src\Unosquare.Labs.EmbedIO.JsonServer\Unosquare.Labs.EmbedIO.JsonServer.csproj", "{E29BE9D3-F378-4322-8886-A39A2221202E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmbedIO.JsonServer", "src\EmbedIO.JsonServer\EmbedIO.JsonServer.csproj", "{E29BE9D3-F378-4322-8886-A39A2221202E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unosquare.Labs.EmbedIO.ExtraSample", "src\Unosquare.Labs.EmbedIO.ExtraSample\Unosquare.Labs.EmbedIO.ExtraSample.csproj", "{EFACFA84-7ADE-4F61-8223-B0FE2EAFA130}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmbedIO.ExtraSample", "src\EmbedIO.ExtraSample\EmbedIO.ExtraSample.csproj", "{EFACFA84-7ADE-4F61-8223-B0FE2EAFA130}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unosquare.Labs.EmbedIO.Markdown", "src\Unosquare.Labs.EmbedIO.Markdown\Unosquare.Labs.EmbedIO.Markdown.csproj", "{5B597A25-47A2-4912-939E-ADC2ABFFAC09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmbedIO.Markdown", "src\EmbedIO.Markdown\EmbedIO.Markdown.csproj", "{5B597A25-47A2-4912-939E-ADC2ABFFAC09}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unosquare.Labs.EmbedIO.Extra.Tests", "test\Unosquare.Labs.EmbedIO.Extra.Tests\Unosquare.Labs.EmbedIO.Extra.Tests.csproj", "{4F67B835-9E7D-487A-BB72-7BB2352CA2A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmbedIO.Extra.Tests", "test\EmbedIO.Extra.Tests\EmbedIO.Extra.Tests.csproj", "{4F67B835-9E7D-487A-BB72-7BB2352CA2A1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unosquare.Labs.EmbedIO.LiteLibWebApi", "src\Unosquare.Labs.EmbedIO.LiteLibWebApi\Unosquare.Labs.EmbedIO.LiteLibWebApi.csproj", "{E5898073-C093-4ED9-AF58-784AAD405A1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmbedIO.LiteLibWebApi", "src\EmbedIO.LiteLibWebApi\EmbedIO.LiteLibWebApi.csproj", "{E5898073-C093-4ED9-AF58-784AAD405A1E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmbedIO.AspNetCore", "src\Unosquare.EmbedIO.AspNetCore\EmbedIO.AspNetCore.csproj", "{B0E79E64-B215-4FE5-816C-6E1D699EC6AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmbedIO.AspNetCore", "src\EmbedIO.AspNetCore\EmbedIO.AspNetCore.csproj", "{B0E79E64-B215-4FE5-816C-6E1D699EC6AC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unosquare.EmbedIO.AspNetCore.Sample", "src\Unosquare.EmbedIO.AspNetCore.Sample\Unosquare.EmbedIO.AspNetCore.Sample.csproj", "{58EE711D-5119-4DF2-A698-5D5B2E3A1ECE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmbedIO.AspNetCore.Sample", "src\EmbedIO.AspNetCore.Sample\EmbedIO.AspNetCore.Sample.csproj", "{58EE711D-5119-4DF2-A698-5D5B2E3A1ECE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

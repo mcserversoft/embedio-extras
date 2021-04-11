@@ -18,9 +18,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Unosquare.Labs.EmbedIO.BearerToken\Unosquare.Labs.EmbedIO.BearerToken.csproj" />
-    <ProjectReference Include="..\Unosquare.Labs.EmbedIO.JsonServer\Unosquare.Labs.EmbedIO.JsonServer.csproj" />
-    <ProjectReference Include="..\Unosquare.Labs.EmbedIO.Markdown\Unosquare.Labs.EmbedIO.Markdown.csproj" />
+    <ProjectReference Include="..\EmbedIO.BearerToken\EmbedIO.BearerToken.csproj" />
+    <ProjectReference Include="..\EmbedIO.JsonServer\EmbedIO.JsonServer.csproj" />
+    <ProjectReference Include="..\EmbedIO.Markdown\EmbedIO.Markdown.csproj" />
   </ItemGroup>
 
   <ItemGroup>
