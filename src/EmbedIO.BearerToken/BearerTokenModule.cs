@@ -2,9 +2,11 @@
 
 namespace EmbedIO.BearerToken
 {
+    using Core;
     using Microsoft.IdentityModel.Tokens;
-    using System.Collections.Generic;
     using System;
+    using System.Collections.Generic;
+    using System.Linq;
     using System.Text;
     using System.Threading.Tasks;
 
@@ -92,10 +94,32 @@ namespace EmbedIO.BearerToken
 
             ((IHttpContextImpl)context).User = context.GetPrincipal(SecretKey, out var securityToken);
 
-            // decode token to see if it's valid
-            if (securityToken != null)
+            // check if user exists
+            if (Globals.McssSettings.WebApiUsers.Any(u => u.Username == (((IHttpContextImpl)context).User?.Identity?.Name ?? string.Empty)))
             {
-                return;
+                // check if this is the same user
+                var identity = context.User.Identity as System.Security.Claims.ClaimsIdentity;
+                if (identity != null)
+                {
+                    try
+                    {
+                        var id = identity.FindFirst("Id").Value;
+                        if (id != null)
+                        {
+                            if (Globals.McssSettings.WebApiUsers.Any(u => u.Identifier == Guid.Parse(id)))
+                            {
+                                // decode token to see if it's valid
+                                if (securityToken != null)
+                                {
+                                    return;
+                                }
+                            }
+                        }
+                    }
+                    catch (Exception)
+                    {
+                    }
+                }
             }
 
             context.Rejected();

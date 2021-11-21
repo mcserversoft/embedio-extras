@@ -27,6 +27,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Core\Core.csproj" />
     <ProjectReference Include="..\..\..\Embedio\src\packages\EmbedIO\EmbedIO.csproj" />
   </ItemGroup>
   
