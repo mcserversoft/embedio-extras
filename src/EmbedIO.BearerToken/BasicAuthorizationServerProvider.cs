@@ -26,5 +26,12 @@
 
         /// <inheritdoc />
         public long GetExpirationDate() => DateTime.UtcNow.AddHours(12).Ticks;
+
+        /// <inheritdoc />
+        public long GetUnixExpirationDate()
+        {
+            DateTime expirationDate = new DateTime(GetExpirationDate());
+            return ((DateTimeOffset)expirationDate).ToUnixTimeSeconds();
+        }
     }
 }

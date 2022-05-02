@@ -149,6 +149,7 @@ namespace EmbedIO.BearerToken
                 Token = validationContext.GetToken(SecretKey, expiryDate),
                 TokenType = "bearer",
                 ExpirationDate = _authorizationServerProvider.GetExpirationDate(),
+                UnixExpirationDate = _authorizationServerProvider.GetUnixExpirationDate(),
                 Username = validationContext.IdentityName,
             };
 

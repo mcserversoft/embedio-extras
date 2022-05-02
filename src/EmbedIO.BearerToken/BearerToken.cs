@@ -24,7 +24,13 @@ namespace EmbedIO.BearerToken
         /// </summary>
         [JsonProperty("expires_in")]
         public long ExpirationDate { get; set; }
-        
+
+        /// <summary>
+        /// Unix Expiration Date.
+        /// </summary>
+        [JsonProperty("expires_at")]
+        public long UnixExpirationDate { get; set; }
+
         /// <summary>
         /// Client username.
         /// </summary>

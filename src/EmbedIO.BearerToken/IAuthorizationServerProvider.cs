@@ -21,5 +21,11 @@
         /// </summary>
         /// <returns>Ticks until expiration date.</returns>
         long GetExpirationDate();
+
+        /// <summary>
+        /// Gets a Expiration Date.
+        /// </summary>
+        /// <returns>Unix timestamp until expiration date.</returns>
+        long GetUnixExpirationDate();
     }
 }
